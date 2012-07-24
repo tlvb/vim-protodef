@@ -113,7 +113,7 @@ In order to get ProtoDef working you'll need to do the following:
   - Optionally tell ProtoDef where ctags and pullproto.pl are
 
 ==============================================================================
-							*protodef-configure*
+						       *protodef-configuration*
 8. Configuration~
 
 							*'protodefctagsexe'*
@@ -159,6 +159,13 @@ In order to get ProtoDef working you'll need to do the following:
 	If you want to disable the creation of the the <leader>PP and
         <leader>PN mappings, just define this - it doesn't matter what you
 	define it to be.
+
+						 *'protodef_brace_first_line'*
+'protodef_brace_first_line' whatever (default is not defined)
+			    global
+
+	Inserts prototypes with the opening brace after a space, on the same
+	line as the prototype, instead on a line of its own.
 
 ==============================================================================
    	*protodef-publicfunc* *ReturnSkeletonsFromPrototypesForCurrentBuffer()*
